@@ -3,3 +3,12 @@ node_modules
 .expo-shared
 .env
 .DS_Store
+
+# watchman (mac)
+.watchman-cookie-*
+.watchmanconfig
+
+# editor/system junk
+.vscode
+.idea
+.DS_Store
