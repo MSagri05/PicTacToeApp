@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "PicTacToeApp",
+    "slug": "PicTacToeApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSContactsUsageDescription": "Pic-Tac-Toe uses your contacts to help you find friends to play with.",
+        "NSCameraUsageDescription": "Pic-Tac-Toe uses the camera so you can take a photo for your move.",
+        "NSPhotoLibraryUsageDescription": "Pic-Tac-Toe needs photo library access to let you choose a picture for your move."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+       "CAMERA", "READ_EXTERNAL_STORAGE","READ_CONTACTS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-font"
+    ]
+  }
+}
